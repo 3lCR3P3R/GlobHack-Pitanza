@@ -17,6 +17,7 @@ nav{
     display: table;
     margin: auto;
     margin-top: 10px;
+
     height: 40px;
    -webkit-transition: margin-left .6s;
 }
@@ -81,5 +82,4 @@ article h1{
     color: black;
     text-align: justify;
     font-size: 25px;
-
 }
