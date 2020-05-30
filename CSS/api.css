@@ -5,6 +5,8 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+
 :root{
     --font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -25,7 +27,7 @@ div{
 }
 input{
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 11px;
     margin-bottom: 10px;
    /** margin-left: 20px;**/
     margin-right: 20px;
