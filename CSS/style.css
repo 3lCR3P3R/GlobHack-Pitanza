@@ -58,55 +58,6 @@ nav ul a li:hover{
     height: 2000px;
 }
 
-/***************CONTACTENOS****************/
-
-body{
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-form{
-    width: 450px;
-    margin: auto;
-    background: rgba(135, 135, 209, 0);
-    padding: 10px, 20px;
-    box-sizing: border-box;
-    margin-top: 200px;
-    border-radius: 10px;
-}
-h2{
-    color: rgb(42, 20, 136);
-    text-align: center;
-    margin: 0;
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-input, textarea{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
-}
-textarea{
-    min-height: 100px;
-    max-height: 250px;
-    max-width: 100%;
-}
-#boton{
-    background: orangered;
-    color: aliceblue;
-    padding: 20px;
-    border-radius: 50px;
-}
-#boton:hover{
-    cursor: pointer;
-}
-@media (max-width: 480px){
-    form{
-        width: 100%;
-      
 #articuloBienvenida{
     background-image: url(../IMG/fondoBienvenido.jpg);
     background-repeat: no-repeat;
@@ -132,6 +83,64 @@ article h1{
     text-align: justify;
     font-size: 25px;
 }
+/****************************************************/
+/***************CONTACTENOS****************/
+
+body{
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#formContactenos{
+    width: 450px;
+    margin: auto;
+    background: rgba(135, 135, 209, 0);
+    padding: 10px, 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+#formContactenos h2{
+    color: rgb(42, 20, 136);
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#formContactenos input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#formContactenos textarea{
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 100%;
+}
+#formContactenos #boton{
+    background: #e46c2f;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+#formContactenos #boton:hover{
+    border: 2px solid #730400;
+    cursor: pointer;
+}
+
+@media (max-width: 480px){
+    #formContactenos{
+        width: 100%;
+    }
+}  
 /******************** LOGIN**************************/
 .oscurecer {
 	position: fixed;
@@ -151,7 +160,7 @@ article h1{
 	border-radius: 1em;
     padding-top: 1em;
 	position: fixed;
-	top:100px;
+	top:150px;
 	left: 30%;
 	z-index: 200;
     display: none;
@@ -188,3 +197,4 @@ article h1{
     border-color: #730400;
     cursor: pointer;
 }
+/************************/
