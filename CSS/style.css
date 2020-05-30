@@ -85,8 +85,8 @@ article h1{
     color: black;
     text-align: justify;
     font-size: 25px;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 }
 /****** css camilo guzman*****/
 
@@ -145,7 +145,7 @@ select{
 .enviar:hover{
     box-shadow: white 0px 0px 15px 1px;
 =======
->>>>>>> master
+
 }
 =======
 }
@@ -267,5 +267,64 @@ body{
     border-color: #730400;
     cursor: pointer;
 }
+
+/***********Registrar*************/
+#registrar{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 30px;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 40px;
+}
+
+#registrar input, textarea{
+    border: 0;
+    outline: none;
+    margin-bottom: 20px;
+
+    width: 280px;
+}
+
+#registrar .field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+    
+}
+
+#registrar .field:focus{
+    border-color: #18A383;
+}
+
+#registrar .center-content{
+    text-align: center;
+}
+
+#registrar .btn{
+    background: #e46c2f;
+color: white;
+padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#registrar .btn:hover{
+    border: 2px solid #730400;
+cursor: pointer;
+}
+
+#tituloRegistrar{
+color: white;
+margin-top: 20px;
+background-color: rgba(0, 0, 0, 0.342);
+
+}
+
+
+=======
 /************************/
->>>>>>> bc6c83ef08ec71d29be54ad99e79020ce4ee6519
+
+
