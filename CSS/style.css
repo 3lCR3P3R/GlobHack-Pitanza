@@ -82,6 +82,7 @@ article h1{
     color: black;
     text-align: justify;
     font-size: 25px;
+<<<<<<< HEAD
 }
 /****** css camilo guzman*****/
 
@@ -139,4 +140,6 @@ select{
 }
 .enviar:hover{
     box-shadow: white 0px 0px 15px 1px;
+=======
+>>>>>>> master
 }
