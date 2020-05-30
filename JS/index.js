@@ -1,3 +1,13 @@
+function mostrarLogin(){
+    document.querySelector(".oscurecer").style.display = "flex"
+    document.querySelector(".login").style.display = "flex"
+}
+
+function ocultarLogin(){
+    document.querySelector(".oscurecer").style.display = "none"
+    document.querySelector(".login").style.display = "none"
+}
+
 $(document).ready(function(){
 
 	var flag = false;
