@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/GlobHack-Pitanza/CSS/index.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     
     <title>Contactenos</title>
 </head>
-<body background="/GlobHack-Pitanza/IMG/contacto.jpg">
+<body background="../IMG/fondoContacto.jpg" class="contac">
     
-    <form action="">
+    <form action="" id="formContactenos" >
         <h2>Contactenos</h2>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="email" name="correo" placeholder="Correo electronico">
-        <input type="text" name="telefono" placeholder="Telefono">
+        <input class="contactenos" type="text" name="nombre" placeholder="Nombre">
+        <input class="contactenos" type="email" name="correo" placeholder="Correo electronico">
+        <input class="contactenos" type="text" name="telefono" placeholder="Telefono">
         <textarea name="mensaje" placeholder="Escriba aqui su mensaje">
         </textarea>
         <input type="button" value="Enviar" id="boton">
+        <a href="../index.html" id="volverInicio">Volver a inicio</a>
     </form>
+
 </body>
 </html>
