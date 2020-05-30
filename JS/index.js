@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		scroll = $(window).scrollTop();
     
-		if (scroll > 150) {
+		if (scroll > 50) {
 			if (!flag) {
 				$("#logo").css({"margin-top": "-2px", " width": "150px", "height": "70px", "margin-left":"20px", "margin-right":"25px"})
 				flag = true;
