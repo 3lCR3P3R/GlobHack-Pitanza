@@ -136,6 +136,10 @@ body{
     cursor: pointer;
 }
 
+#volverInicio:hover{
+    color: blue;
+}
+
 @media (max-width: 480px){
     #formContactenos{
         width: 100%;
