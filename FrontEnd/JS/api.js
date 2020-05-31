@@ -1,6 +1,6 @@
-document.getElementById("enviar").addEventListener("click",whasta);
+document.getElementById("enviar").addEventListener("click",enviar_whatsapp);
 
-function whasta() {
+function enviar_whatsapp() {
    var nombre= document.getElementById("cuadro_nom").value;
    var apellido= document.getElementById("cuadro_ape").value;
    var direccion= document.getElementById("cuadro_dir").value;
