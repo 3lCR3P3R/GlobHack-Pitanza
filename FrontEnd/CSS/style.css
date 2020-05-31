@@ -13,11 +13,25 @@ header{
 }
 
 /**********************N A V************************/
+#btn-menu{
+    display: none;
+    float: left;
+}
+
+header label{
+    display: none;
+    float: left;
+    padding-left: 2%;
+}
+
+header label:hover{
+    cursor: pointer;
+}
+
 nav{
     display: table;
     margin: auto;
     margin-top: 10px;
-
     height: 40px;
    -webkit-transition: margin-left .6s;
 }
@@ -39,7 +53,7 @@ nav ul li{
 nav ul a{
     color: black;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 25px;
 }
 
 nav ul a li:hover{
@@ -403,4 +417,47 @@ body{
 #formularioRegistro .btnRegistrar:hover{
     border: 2px solid #730400;
     cursor: pointer;
+}
+
+
+/********R E S P O N S I V E*********************/
+@media (max-width: 1262px){
+    header label{
+        display: block;
+        padding-top: 4px;
+    }
+
+    header label img{
+        width: 70px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    
+    nav ul li{
+        border-top: 1px solid white ;
+    }
+    nav ul li a{
+        font-size: 15px;
+        
+    }
+
+    #btn-menu:checked ~ nav{
+        background-color: #e7e7e7;
+        margin-top: 12vh;
+        margin-left: 0px;
+        display: flex;
+        height: 100%;
+    }
+
+    #btn-menu:checked ~ nav img{
+        display: none;
+    }
 }
