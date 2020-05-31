@@ -58,6 +58,10 @@ nav ul a li:hover{
     height: 2000px;
 }
 
+section{
+    margin-bottom: 600px;
+}
+
 #articuloBienvenida{
     background-image: url(../IMG/fondoBienvenido.jpg);
     background-repeat: no-repeat;
@@ -85,10 +89,83 @@ article h1{
     color: black;
     text-align: justify;
     font-size: 25px;
-
-
 }
-/****************************************************/
+/****************RESTAURANTES***********************/
+#tituloRestaurante{
+    text-align: center;
+    font-size: 90px;
+    color: #730400;
+}
+
+.anchoRestaurantes{
+    width: 100%;
+}
+
+#restauranteUno{
+    width: 33%;
+    height: 500px;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+}
+
+#restauranteDos{
+    width: 33%;
+    height: 500px;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+}
+
+#restauranteTres{
+    width: 33%;
+    height: 500px;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+}
+/******LINKS*****/
+#restauranteUno a{
+    color: #e06e32;
+    text-decoration: none;
+}
+
+#restauranteDos a{
+    color: #e06e32;
+    text-decoration: none;
+}
+
+#restauranteTres a{
+    color: #e06e32;
+    text-decoration: none;
+}
+/**********************IMG**********/
+.imgRestaurante{
+    width: 100%;
+    height: 80%;
+    margin-top: 40px;
+}
+
+#imagenesRestaurante{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px dashed black;
+}
+
+#imagenesRestaurante:hover{
+    -webkit-transform:scale(.8);
+    -moz-transform:scale(.8);
+    -ms-transform:scale(.8);
+    -o-transform:scale(.8);
+    transform:scale(.8);
+}
 /***************CONTACTENOS****************/
 
 body{
