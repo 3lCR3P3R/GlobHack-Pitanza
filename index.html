@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,32 @@
     <script src="JQUERY/jquery-1.8.1.min.js"></script>
     <script src="JS/index.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <a href="#inicio"><li>Inicio</li></a>
-                <a href="#"><li>Restaurantes</li></a>
-                <a href="#"><li>Comidas Rapidas</li></a>
+                <a href="#inicio">
+                    <li>Inicio</li>
+                </a>
+                <a href="#">
+                    <li>Restaurantes</li>
+                </a>
+                <a href="#comidasRapidas">
+                    <li>Comidas Rapidas</li>
+                </a>
             </ul>
             <img id="logo" src="IMG/logo.png" alt="">
             <ul>
-                <a href="HTML/contactenos.html"><li>Contactenos</li></a>
-                <a href="#" onclick="mostrarLogin()"><li>Ingresar</li></a>
-                <a href="HTML/registrar.html"><li>Registrar</li></a>    
+                <a href="HTML/contactenos.html">
+                    <li>Contactenos</li>
+                </a>
+                <a href="#" onclick="mostrarLogin()">
+                    <li>Ingresar</li>
+                </a>
+                <a href="HTML/registrar.html">
+                    <li>Registrar</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -30,27 +44,67 @@
             <article id="articuloBienvenida">
                 <h1>Bienvenido</h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident 
-                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed, 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed,
                     quod assumenda dolores a, odio, at labore. Quam, saepe similique?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident 
-                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed, 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed,
                     quod assumenda dolores a, odio, at labore. Quam, saepe similique?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident 
-                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed, 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed,
                     quod assumenda dolores a, odio, at labore. Quam, saepe similique?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident 
-                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed, 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    voluptatibus eligendi porro sequi natus accusantium velit totam maxime aliquam sed,
                     quod assumenda dolores a, odio, at labore. Quam, saepe similique?
                 </p>
             </article>
         </section>
+        </section>
+        <section id="comidasRapidas">
+            <h1>Comidas Rapidas</h1>
+            <div class="containerPrincipal">
+              
+                <div class="containerOne">
+                    <div class="img">
+                        <img src="IMG/comidas/burguer.jpg" alt="">
+                    </div>
+                    <p>
+                        Ingredientes: carne de res o cerdo x 150grs, tomate, lechuga, <br>
+                        cebolla caramelizada, queso chedar, papas a la francesa y salsas al gusto.
+                    </p>
+                    <a href="HTML/api.html"><input class="btn" type="button" value="Comprar" ></a>
+                </div>
+                <div class="containerTwo">
+                    <div class="img">
+                        <img src="IMG/comidas/perrro.jpeg" alt="">
+                    </div>
+                    <p>
+                        Tenemos todos los ingredientes que quieres para tu hot maximun, <br>
+                        salchicha americana, alemana, pan de ajo u oregano, todo tipo de salsas.
+                    </p>
+                    <a href="HTML/api.html"><input class="btn" type="button" value="Comprar" ></a>
+                </div>
+                <div class="containerThree">
+                    <div class="img">
+                        <img src="IMG/comidas/salchipapa.jpg" alt="">
+                    </div>
+                    <p>
+                        La mejor y unica salchipapa express, a tu medida. <br>
+                        maiz tierno, carne desmechada, cerdo en salsa teriyaki, entre otros.
+                    </p>
+                    <a href="HTML/api.html"><input class="btn" type="button" value="Comprar" ></a>
+                </div>
+                <br>
+            </div>
     </div>
+    </section>
+    </div>
+
 
     <div class="oscurecer" onclick="ocultarLogin()"></div>
     <div class="login" id="login">
         <form action="">
-            <img src="IMG/logo.png"alt="">
+            <img src="IMG/logo.png" alt="">
             <input type="text" placeholder="Usuario" id="user">
             <input type="password" placeholder="Contraseña" id="passw">
             <input type="button" value="Ingresar" id="Ingresar" onclick="ocultarLogin()">
@@ -59,4 +113,5 @@
         </form>
     </div>
 </body>
+
 </html>
