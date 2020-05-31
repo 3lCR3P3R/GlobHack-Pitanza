@@ -1,9 +1,7 @@
-language: node_js
-node_js:
-  - "12.16.3"
-script:
+deploy:
+  provider: firebase
+  token:
+    secure: "YOUR ENCRYPTED token"
+  message: "your message"
+deploy:
   - echo "Deploying"
-install:
-  - npm install -g firebase-tools
-after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
