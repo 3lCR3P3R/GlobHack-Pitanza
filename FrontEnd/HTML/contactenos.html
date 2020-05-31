@@ -10,16 +10,17 @@
 <body background="../IMG/fondoRegistrar.jpg" class="contac">
 
     
-    <form action="" id="formContactenos" >
+    <form id="formContactenos" >
         <h2>Contactenos</h2>
-        <input class="contactenos" type="text" name="nombre" placeholder="Nombre">
-        <input class="contactenos" type="email" name="correo" placeholder="Correo electronico">
-        <input class="contactenos" type="text" name="telefono" placeholder="Telefono">
-        <textarea name="mensaje" placeholder="Escriba aqui su mensaje">
-        </textarea>
-        <input type="button" value="Enviar" id="boton">
+        <input class="contactenos" type="text" name="nombre" placeholder="Nombre" required>
+        <input class="contactenos" type="email" name="correo" placeholder="Correo electronico"  required>
+        <input class="contactenos" type="text" name="telefono" placeholder="Telefono" maxlength="15" name="telefono"
+        onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required>
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+        <input type="submit" value="Enviar" id="boton">
         <a href="../../index.html" id="volverInicio">Volver a inicio</a>
     </form>
 
+    <script src="../JS/enviarDudas.js"></script>
 </body>
 </html>

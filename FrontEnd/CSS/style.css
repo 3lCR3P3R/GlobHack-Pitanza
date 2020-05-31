@@ -13,11 +13,25 @@ header{
 }
 
 /**********************N A V************************/
+#btn-menu{
+    display: none;
+    float: left;
+}
+
+header label{
+    display: none;
+    float: left;
+    padding-left: 2%;
+}
+
+header label:hover{
+    cursor: pointer;
+}
+
 nav{
     display: table;
     margin: auto;
     margin-top: 10px;
-
     height: 40px;
    -webkit-transition: margin-left .6s;
 }
@@ -39,7 +53,7 @@ nav ul li{
 nav ul a{
     color: black;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 25px;
 }
 
 nav ul a li:hover{
@@ -405,6 +419,7 @@ body{
     border: 2px solid #730400;
     cursor: pointer;
 }
+
 /*******Restaurant doña Maria********/
 #restauranteMaria{
     margin-top: 50px;
@@ -433,4 +448,5 @@ body{
     float: left;
     padding-left: 20px;
     font-size: 42px;
+
 }
