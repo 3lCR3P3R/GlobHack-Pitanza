@@ -177,15 +177,15 @@ body{
 #formContactenos{
     width: 450px;
     margin: auto;
-    background: rgba(135, 135, 209, 0);
-    padding: 10px, 20px;
+    background: rgba(138, 51, 51, 0.719);
+    padding: 30px;
     box-sizing: border-box;
-    margin-top: 200px;
+    margin-top: 50px;
     border-radius: 10px;
 }
 
 #formContactenos h2{
-    color: rgb(42, 20, 136);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin: 0;
     font-size: 50px;
@@ -198,13 +198,13 @@ body{
     padding: 5px;
     box-sizing: border-box;
     font-size: 17px;
-    border: none;
+    border: 10px;
 }
 
 #formContactenos textarea{
     min-height: 100px;
     max-height: 250px;
-    max-width: 100%;
+    width:390px;
 }
 #formContactenos #boton{
     background: #e46c2f;
@@ -218,8 +218,8 @@ body{
     cursor: pointer;
 }
 
-#volverInicio:hover{
-    color: blue;
+#volverInicio{
+    color: rgb(254, 254, 255);
 }
 
 @media (max-width: 480px){
