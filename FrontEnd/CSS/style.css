@@ -420,6 +420,7 @@ body{
 }
 
 
+
 /********R E S P O N S I V E*********************/
 @media (max-width: 1262px){
     header label{
@@ -460,6 +461,8 @@ body{
     #btn-menu:checked ~ nav img{
         display: none;
     }
+
+
 }
 
 .site-footer
@@ -625,3 +628,4 @@ body{
     font-weight:600
   }
 }
+
