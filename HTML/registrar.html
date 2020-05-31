@@ -8,24 +8,28 @@
 </head>
 <body background="../IMG/fondoRegistrar.jpg">
 
-    <center><h1 id="tituloRegistrar">Registrar</h1></center>
+    <center><h1 id="tituloRegistrar">Registro de usuario</h1></center>
     
     
-        <form action="" id="registrar">
+        <form action="../PHP/registrarse.php" method="POST" id="registrar">
             <p>Nombre:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" name="nombre" maxlength="20"> <br/>
     
             <p>Correo electrónico:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" name="correo"> <br/>
+
+            <p>contraseña:</p>
+            <input type="password" class="field" name="contraseña"> <br/>
     
             <p>Telefono:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" name="telefono" maxlength="15" 
+            onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required> <br/>
     
-            <p>Mensaje:</p>
-            <textarea class="field"></textarea> <br/>
+            <p>Dirrección:</p>
+            <input type="text" class="field" name="direccion"> <br/>
     
             <p class="center-content">
-                <input type="submit" class="btn btn-green" value="Enviar Datos">
+                <input type="submit" class="btn btn-green" value="Registarse">
             </p>
     
         </form>
