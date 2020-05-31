@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Registrar</title>
+</head>
+<body background="../IMG/fondoRegistrar.jpg">
+
+   <h1 id="tituloRegistrar">Registro de Usuarios</h1>
+    
+    <form action="../PHP/registrarse.php" method="POST" id="formularioRegistro">
+        <p>Nombre:</p>
+        <input type="text" class="field" maxlength="30" name="nombre"> <br/>
+    
+        <p>Correo electrónico:</p>
+        <input type="text" class="field" maxlength="30" name="correo"> <br/>
+
+        <p>Contraseña:</p>
+        <input type="text" class="field" maxlength="30" name="contraseña" > <br/>
+    
+        <p>Telefono:</p>
+        <input type="text" class="field" maxlength="15" name="telefono"
+            onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required> <br/>
+    
+        <p>Dirección:</p>
+        <input type="text" class="field" maxlength="50" name="direccion" > <br/>
+    
+        <p class="center-content">
+            <input type="submit" class="btnRegistrar" value="Registarse">
+        </p>
+        <a href="../../index.html" id="volverInicio">Volver a inicio</a> 
+    </form>
+</body>  
+</html>

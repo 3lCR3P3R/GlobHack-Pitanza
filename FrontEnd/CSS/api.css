@@ -1,5 +1,5 @@
 body{
-    background-image: url("fondo.jpg");
+    background-image: url("../IMG/fondoPedidos.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,7 +11,7 @@ body{
 }
 label{
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 
 }
@@ -30,28 +30,28 @@ input{
     margin-bottom: 10px;
    /** margin-left: 20px;**/
     margin-right: 20px;
-    width: 200px;
+    width: 250px;
     text-align: left;
-    height: 20px;
+    height: 25px;
 }
 select{
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 200px;
-    height: 20;
+    width: 250px;
+    height: 25px;
 }
 .enviar{
     border-radius: 10px;
     /**background-color: lawngreen;**/
     margin-bottom: 10px;
-    background-image: url("whasat.png");
+    background-image: url("../IMG/logoWhatsapp.png");
     background-position: center;
     background-size: cover;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 105px;
 }
 .enviar:hover{
     box-shadow: white 0px 0px 15px 1px;
