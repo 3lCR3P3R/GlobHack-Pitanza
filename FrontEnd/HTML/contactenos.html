@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contactenos</title>
+</head>
+
+<body background="../IMG/fondoRegistrar.jpg" class="contac">
+
+    
+    <form id="formContactenos" >
+        <h2>Contactenos</h2>
+        <input class="contactenos" type="text" name="nombre" placeholder="Nombre" required>
+        <input class="contactenos" type="email" name="correo" placeholder="Correo electronico"  required>
+        <input class="contactenos" type="text" name="telefono" placeholder="Telefono" maxlength="15" name="telefono"
+        onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required>
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+        <input type="submit" value="Enviar" id="boton">
+        <a href="../../index.html" id="volverInicio">Volver a inicio</a>
+    </form>
+
+    <script src="../JS/enviarDudas.js"></script>
+</body>
+</html>
