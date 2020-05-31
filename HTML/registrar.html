@@ -11,25 +11,27 @@
     <center><h1 id="tituloRegistrar">Registrar</h1></center>
     
     
-        <form action="" id="registrar">
+        <form action="../PHP/registrarse.php" method="POST" id="Registro de usuarios">
             <p>Nombre:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" maxlength="30" name="nombre"> <br/>
     
             <p>Correo electrónico:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" maxlength="30" name="correo"> <br/>
+
+            <p>Contraseña:</p>
+            <input type="text" class="field" maxlength="30" name="contraseña" > <br/>
     
             <p>Telefono:</p>
-            <input type="text" class="field"> <br/>
+            <input type="text" class="field" maxlength="15" name="telefono"
+            onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required> <br/>
     
-            <p>Mensaje:</p>
-            <textarea class="field"></textarea> <br/>
+            <p>Dirección:</p>
+            <input type="text" class="field" maxlength="50" name="direccion" > <br/>
     
             <p class="center-content">
-                <input type="submit" class="btn btn-green" value="Enviar Datos">
+                <input type="submit" class="btn btn-green" value="Registarse">
             </p>
     
         </form>
-    </body>
-    
-
+    </body>  
 </html>
