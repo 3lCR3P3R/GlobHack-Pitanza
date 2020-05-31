@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <title>Registar</title>
+    <title>Registrar</title>
 </head>
 <body background="../IMG/fondoRegistrar.jpg">
 
-    <center><h1 id="tituloRegistrar">Registrar</h1></center>
+   <h1 id="tituloRegistrar">Registro de Usuarios</h1>
     
+    <form action="../PHP/registrarse.php" method="POST" id="formularioRegistro">
+        <p>Nombre:</p>
+        <input type="text" class="field" maxlength="30" name="nombre"> <br/>
     
-        <form action="../PHP/registrarse.php" method="POST" id="Registro de usuarios">
-            <p>Nombre:</p>
-            <input type="text" class="field" maxlength="30" name="nombre"> <br/>
-    
-            <p>Correo electrónico:</p>
-            <input type="text" class="field" maxlength="30" name="correo"> <br/>
+        <p>Correo electrónico:</p>
+        <input type="text" class="field" maxlength="30" name="correo"> <br/>
 
-            <p>Contraseña:</p>
-            <input type="text" class="field" maxlength="30" name="contraseña" > <br/>
+        <p>Contraseña:</p>
+        <input type="text" class="field" maxlength="30" name="contraseña" > <br/>
     
-            <p>Telefono:</p>
-            <input type="text" class="field" maxlength="15" name="telefono"
+        <p>Telefono:</p>
+        <input type="text" class="field" maxlength="15" name="telefono"
             onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required> <br/>
     
-            <p>Dirección:</p>
-            <input type="text" class="field" maxlength="50" name="direccion" > <br/>
+        <p>Dirección:</p>
+        <input type="text" class="field" maxlength="50" name="direccion" > <br/>
     
-            <p class="center-content">
-                <input type="submit" class="btn btn-green" value="Registarse">
-            </p>
-    
-        </form>
-    </body>  
+        <p class="center-content">
+            <input type="submit" class="btnRegistrar" value="Registarse">
+        </p>
+        <a href="../index.html" id="volverInicio">Volver a inicio</a> 
+    </form>
+</body>  
 </html>
